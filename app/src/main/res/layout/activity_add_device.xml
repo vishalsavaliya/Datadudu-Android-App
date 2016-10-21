@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBluelight"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="10">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:padding="15dp"
+            android:src="@drawable/ic_backarrow" />
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="7"
+            android:gravity="center|left"
+            android:text=""
+            android:textColor="#FFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgLogout"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:layout_weight="1.5"
+            android:padding="12dp"
+            android:src="@drawable/logout" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flAddDevice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

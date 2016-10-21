@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Dati Dudu</string>
+    <string name="str_username">Nome utente</string>
+    <string name="str_password">parola dordine</string>
+    <string name="str_conpassword">conferma password</string>
+    <string name="str_login">Accesso</string>
+    <string name="str_forgotpassword">Ha dimenticato la password ?</string>
+    <string name="str_loginal">Sei già un membro ?</string>
+    <string name="str_loginnow">Accedi ora</string>
+    <string name="str_signup">Registrazione</string>
+    <string name="str_Email">E-mail</string>
+    <string name="str_AddDevice">Aggiungi dispositivo</string>
+    <string name="str_Deviceman">Dispositivo Man</string>
+    <string name="str_instr">istruzione</string>
+    <string name="str_scan">Scansione</string>
+    <string name="str_next">Il prossimo</string>
+    <string name="str_save">Salvare</string>
+
+    <string name="str_choosewifi">Scegli Wifi SSID</string>
+    <string name="str_choosewifiprofile">Scegli Wifi Profilo</string>
+    <string name="str_Encrypt_type">Tipo cifrare</string>
+    <string name="str_informations_AboutDevice">Informazioni Info sul dispositivo</string>
+    <string name="str_sensorSSID">Sensore SSID</string>
+    <string name="str_Unmount">Smonta</string>
+    <string name="str_Welcome_to">Benvenuto a </string>
+    <string name="str_DATA_DUDU">DATI DUDU</string>
+    <string name="str_Device_Confirmation">Elaborare Conferma</string>
+    <string name="str_ConfirmSetup">Confermare &amp; Impostare</string>
+    <string name="str_Wifi_SSID">Wifi SSID</string>
+    <string name="str_Instructions">istruzione</string>
+    <string name="str_Confirm">CONFERMARE</string>
+    <string name="str_Info">Informazioni</string>
+    <string name="str_SSID">SSID:</string>
+    <string name="str_SN">SN:</string>
+    <string name="str_ProcessingInfo">Info Processing</string>
+    <string name="str_Device_Setup">Device Setup</string>
+    <string name="str_Status">Stato</string>
+    <string name="str_Fail_Resason">Fail Motivo</string>
+    <string name="str_Add_Profile">Aggiungi profilo</string>
+    <string name="str_SL">Seleziona la lingua</string>
+
+    <string name="str_Mount">Montare</string>
+    <string name="str_WifiProfile">Wifi Profilo</string>
+    <string name="str_ConfirmM">Confermare</string>
+    <string name="str_Setup">Impostare</string>
+    <string name="str_Finish">finire</string>
+
+    <string name="str_DeviceList">Elenco dispositivi</string>
+    <string name="str_AddwifiProfile">Aggiungere Wifi Profilo</string>
+
+    <string-array name="TimeZone">
+        <item>Fuso orario</item>
+        <item>Fuso orario</item>
+        <item>Fuso orario</item>
+    </string-array>
+
+    <string-array name="WorkProfile">
+        <item>profilo di lavoro</item>
+        <item>profilo di lavoro</item>
+        <item>profilo di lavoro</item>
+    </string-array>
+
+    <string-array name="EncryptType">
+        <item>WPA/WPA2</item>
+        <item>WPA</item>
+        <item>WPA2</item>
+    </string-array>
+
+    <string name="str_Step1">Step 1</string>
+    <string name="str_Step2">Step 2</string>
+    <string name="str_Step3">Step 3</string>
+
+</resources>

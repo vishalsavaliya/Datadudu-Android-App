@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBluelight"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:padding="15dp"
+            android:src="@drawable/ic_backarrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center|left"
+            android:text="@string/str_AddwifiProfile"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/whitebg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/txtChoosewifi"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center|left"
+                        android:text="@string/str_choosewifi"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spSSDI"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawSelectorOnTop="true"
+                        android:entries="@array/WorkProfile"
+                        android:spinnerMode="dropdown" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="05dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#d3d3d3" />
+
+                    <TextView
+                        android:id="@+id/txtEncryptType"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center|left"
+                        android:text="@string/str_Encrypt_type"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spEncrypttype"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawSelectorOnTop="true"
+                        android:entries="@array/EncryptType"
+                        android:spinnerMode="dropdown" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#d3d3d3" />
+
+                    <LinearLayout
+                        android:id="@+id/llPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center|left"
+                            android:text="@string/str_password"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/edtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@null"
+                            android:hint="********"
+                            android:inputType="textPassword" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="3dp"
+                            android:background="#d3d3d3" />
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/btnSave"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/button_stroke_g"
+                        android:gravity="center_horizontal|center"
+                        android:text="@string/str_save"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

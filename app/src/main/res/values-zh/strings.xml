@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">數據嘟嘟</string>
+    <string name="str_username">用戶名</string>
+    <string name="str_password">密碼</string>
+    <string name="str_conpassword">確認密碼</string>
+    <string name="str_login">登錄</string>
+    <string name="str_forgotpassword">忘了密碼 ？</string>
+    <string name="str_loginal">已經是會員 ？</string>
+    <string name="str_loginnow">現在登錄</string>
+    <string name="str_signup">註冊</string>
+    <string name="str_Email">電子郵件</string>
+    <string name="str_AddDevice">添加設備</string>
+    <string name="str_Deviceman">設備曼</string>
+    <string name="str_instr">說明</string>
+    <string name="str_scan">掃描</string>
+    <string name="str_next">下一個</string>
+    <string name="str_save">保存</string>
+
+    <string name="str_choosewifi">選擇無線 SSID</string>
+    <string name="str_choosewifiprofile">選擇 WiFi 配置</string>
+    <string name="str_Encrypt_type">加密類型</string>
+    <string name="str_informations_AboutDevice">信息關於設備</string>
+    <string name="str_sensorSSID">傳感器SSID</string>
+    <string name="str_Unmount">卸載</string>
+    <string name="str_Welcome_to">歡迎來到</string>
+    <string name="str_DATA_DUDU">數據嘟嘟</string>
+    <string name="str_Device_Confirmation">設計確認</string>
+    <string name="str_ConfirmSetup">確認和放大器; 建立</string>
+    <string name="str_Wifi_SSID">無線SSID</string>
+    <string name="str_Instructions">說明</string>
+    <string name="str_Confirm">確認</string>
+    <string name="str_Info">信息</string>
+    <string name="str_SSID">SSID:</string>
+    <string name="str_SN">SN:</string>
+    <string name="str_ProcessingInfo">加工信息</string>
+    <string name="str_Device_Setup">設備安裝</string>
+    <string name="str_Status">狀態</string>
+    <string name="str_Fail_Resason">失敗原因</string>
+    <string name="str_Add_Profile">添加配置文件</string>
+    <string name="str_SL">選擇語言</string>
+
+
+    <string name="str_Mount">安裝</string>
+    <string name="str_WifiProfile">WiFi配置</string>
+    <string name="str_ConfirmM">確認</string>
+    <string name="str_Setup">建立</string>
+    <string name="str_Finish">完</string>
+    <string name="str_DeviceList">設備列表</string>
+    <string name="str_AddwifiProfile">添加 WiFi 配置</string>
+    <string-array name="TimeZone">
+        <item>時區</item>
+        <item>時區</item>
+        <item>時區</item>
+    </string-array>
+
+    <string-array name="WorkProfile">
+        <item>工作簡介</item>
+        <item>工作簡介</item>
+        <item>工作簡介</item>
+    </string-array>
+    <string-array name="EncryptType">
+        <item>WPA/WPA2</item>
+        <item>WPA</item>
+        <item>WPA2</item>
+    </string-array>
+
+    <string name="str_Step1">Step 1</string>
+    <string name="str_Step2">Step 2</string>
+    <string name="str_Step3">Step 3</string>
+
+</resources>
